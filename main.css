@@ -421,6 +421,9 @@ h2 {
 #instagram {
   background-color: #1f1b20;
 }
+#linkedIn{
+  background-color:#0077b5;
+}
 .contact-img {
   background-color: white;
   flex: 1;
@@ -488,3 +491,4 @@ a#email-link {
   padding: 8px 18px;
   font-weight: 700;
 }
+
