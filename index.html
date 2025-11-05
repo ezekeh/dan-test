@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dan-portfolio</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="media.css" />
+  </head>
+  <body>
+    <section id="profile">
+      <header class="body-header fixed">
+        <h1>#Pixeldan</h1>
+        <nav>
+          <a href="#about" class="navlink">about</a>
+          <a href="#projects" class="navlink">project</a>
+          <a href="#contact" class="navlink">contact</a>
+        </nav>
+        <div class="hamburger">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+      </header>
+      <div class="img-text">
+        <div class="img-box">
+          <img
+            src="pictures\profile-pic.jpg"
+            alt="profile-pic"
+            class="profile-pic"
+          />
+          <img src="pictures\wave(1).png" alt="" class="wavy" />
+        </div>
+        <div class="textbox">
+          <p>Hello I'm</p>
+          <h2>Daniel Ojo</h2>
+          <p>Graphic Designer</p>
+          <div class="two-buttons">
+            <button class="resume-btn" onclick="window.open('pictures/MY RESUME.pdf')">My resume</button>
+            <button class="contact-btn">Contact</button>
+          </div>
+        </section>
+
+        <!-- about-me section -->
+        <h2 class="about-header">About Me</h2>
+<section id="about">
+  <div class="about-textbox">
+    <h2>About me</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicin
+        g elit. Sint porro sit tempore odit voluptas.
+        Commodi fuga nihil minima eos ut, neque quas, similique impedit,
+        nemo sunt voluptatem hic vel doloribus.
+        Voluptatibus expedita temporibus neque consequuntur!
+        Totam dolorem nisi ea esse pariatur. Necessitatibus error, qui amet repudiandae
+        odit officiis molestiae distinctio obcaecati fugiat facilis! At soluta saepe, nulla itaque id incidunt?
+        <a href="#" class="goto-CV">open CV to know more</a>
+    </p>
+  </div>
+  <div class="about-pic">
+    <img src="pictures\profile-pic-nobg.png" alt="about-pic" >
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="switch-tab">
+    <button class="toggle-switch">Brand Identity</button>
+   <!-- grid box -->
+ <div class="grid-container hidden">
+      <div class="grid-item" id="Spyre">
+        <img src="pictures\projects\Spyre.jpg" alt="">
+      </div>
+
+      <div class="grid-item" id="Spyre-2">
+        <img src="pictures\projects/new3.jpg" alt="">
+      </div>
+
+      <div class="grid-item" id="Spyre-7">
+        <img src="pictures\projects\Spyre-7.jpg" alt="">
+      </div>
+
+      <div class="grid-item" id="Spyre-3">
+        <img src="pictures\projects/Spyre-4.jpg" alt="">
+      </div>
+
+      <div class="grid-item" id="new1">
+        <img src="pictures\projects\new1.jpg" alt="">
+      </div>
+
+      <div class="grid-item spyreCover" id="spyreCover">
+        <img src="pictures\projects\spyreCover.jpg" alt="">
+      </div>
+
+      <div class="grid-item" id="new2">
+        <img src="pictures\projects\new2.jpg" alt="">
+      </div>
+
+      <div class="grid-item" id="spyre-9">
+        <img src="pictures\projects\spyre-9.jpg" alt="">
+      </div>
+
+      </div>
+
+      <!-- projects slider -->
+       <div class="slider ">        
+
+
+        <div class="slide">
+          <img src="pictures/projects/GLORIA.jpg" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="pictures/projects/PACKAGE DESIGN.jpg" alt="">
+        </div>
+
+        <div class="slide">
+          <img src="pictures/projects/FRENZY.jpg" alt="">
+        </div>
+
+        
+        <div class="slide">
+          <img src="pictures/projects/DESIGN CHALLENGE 2025 2.jpg" alt="">
+        </div>
+        
+        <div class="slide">
+          <img src="pictures/projects/new9.jpg" alt="">
+        </div>
+        <!-- buttons left & right -->
+         <div class="slider-btn left">&#8592</div>
+         <div class="slider-btn right">&#8594</div>
+       </div>
+  </div>
+      </section>
+
+      <section id="contact">
+        <h2>contact Me</h2>
+        <div class="contact card">
+          <div class="contact-text">
+            <h4>Get In Touch</h4>
+            <p>Got a project,collaboration,or visual storytelling,
+              I'm always open to new ideas and collaborations.Drop 
+              a message and i'll reply as soon as possible. send me an email @
+              <a href="pixeldan@yahoo.com" id="email-link">send an email</a>
+            </p>
+
+            <div class="link-boxes">
+
+              <div class="link-box other-links">
+                  <a href="#" id="behance"><img src="pictures\enough-icons\behance_inUse.png" alt=""></a>
+                 <a href="#" id="x"> <img src="pictures\enough-icons/x-inUse.png" alt=""></a>
+                  <a href="#" id="linkedIn"><img src="pictures\enough-icons/linkedIn-inUse.png" alt=""></a>
+                  <a href="#" id="instagram"><img src="pictures\enough-icons/instagram-inUse.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-img">
+            <img src="pictures/paper_plane.png" alt="">
+            
+          </div>
+        </div>
+      </section>
+      
+<footer class="body-footer">
+  <span>Built with ❤</span>
+  <h2>@eazyBuilder</h2>
+  <button class="home-btn">Top</button>
+</footer>
+  </body>
+</html>

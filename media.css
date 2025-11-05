@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1100px) {
+  .body-header {
+    padding: 16px;
+  }
+  .about-header,
+  #projects h2 {
+    margin-bottom: 0px;
+  }
+  .img-text {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .textbox h2 {
+    font-size: 2.5rem;
+  }
+  .textbox p {
+    font-size: 0.75rem;
+  }
+  #about {
+    background-color: white;
+    height: 500px;
+    position: relative;
+  }
+  .about-textbox {
+    font-size: 0.55rem;
+    padding: ;
+  }
+  .about-textbox h2 {
+    font-size: 1rem;
+  }
+  .about-pic {
+    /* background-color: #1f1b20; */
+    width: 35%;
+    align-self: flex-end;
+    position: relative;
+    bottom: -20px;
+  }
+  .about-pic img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+  }
+}
+@media only screen and (max-width: 700px) {
+  /* #profile {
+
+  } */
+  .body-header {
+    padding: 7px 48px;
+    border-bottom: 2px solid #7b93b0;
+  }
+  .body-header .hamburger {
+    display: flex;
+  }
+  .body-header nav {
+    display: none;
+  }
+
+  .about-pic {
+    align-self: stretch;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    top: 0;
+    transform: scale(0.75);
+  }
+  .about-pic img {
+    object-fit: contain;
+  }
+  .about-textbox {
+    width: 60%;
+    z-index: 1;
+  }
+  .img-text {
+    gap: 30px;
+    margin-top: 100px;
+  }
+  .img-box .wavy {
+    width: 200%;
+    top: -50%;
+    left: -30%;
+  }
+  .img-box {
+    width: 150px;
+    height: 200px;
+  }
+  .img-box .profile-pic {
+    border-radius: 100px;
+  }
+}
+@media only screen and (max-width: 468px) {
+  .body-header h1 {
+    font-size: 1.5rem;
+  }
+  .contact-img {
+    display: none;
+  }
+}
