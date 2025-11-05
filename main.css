@@ -265,7 +265,7 @@ h2 {
     "e e d"
     "a b c"
     "f h h"
-    "g h h";
+    "f h h";
 }
 .grid-item {
   /* padding: 10px; */
@@ -491,4 +491,5 @@ a#email-link {
   padding: 8px 18px;
   font-weight: 700;
 }
+
 
